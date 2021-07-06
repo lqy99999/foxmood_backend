@@ -20,9 +20,9 @@
     "@babel/core": "^7.14.5",
     "@babel/node": "^7.14.5",
     "@babel/preset-env": "^7.14.5",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.9"
   },
   "scripts": {
-    "start": "node --exec babel-node --ext js,graphql src/index.js "
+    "start": "nodemon --exec babel-node --ext js,graphql src/index.js "
   }
 }
