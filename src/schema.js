@@ -162,15 +162,15 @@ type Query {
   }
   
   enum SignInType {
-    SUCCESS # login success / sign up success
-    USER_NOT_FOUND # login fail (user not found)
-    USER_EXISTS # sign up fail
-    NOT_MATCH # login fail: account and password don't match
+    SUCCESS
+    USER_NOT_FOUND 
+    USER_EXISTS
+    NOT_MATCH
   }
   
   enum SignUpType {
-    SUCCESS # sign up success
-    USER_EXISTS # sign up fail
+    SUCCESS
+    USER_EXISTS
   }  
 `);
 
