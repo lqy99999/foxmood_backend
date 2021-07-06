@@ -171,8 +171,7 @@ type Query {
   enum SignUpType {
     SUCCESS # sign up success
     USER_EXISTS # sign up fail
-  }
-    
-`)
+  }  
+`);
 
 module.exports = schema;
