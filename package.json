@@ -20,6 +20,6 @@
     "nodemon": "^2.0.7"
   },
   "scripts": {
-    "server": "nodemon --exec babel-node --ext js,graphql src/index.js "
+    "start": "nodemon --exec babel-node --ext js,graphql src/index.js "
   }
 }
