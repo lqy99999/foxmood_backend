@@ -30,6 +30,7 @@ const server = new ApolloServer({
     db,
     pubsub,
   },
+  playground: true
 });
 
 
@@ -41,6 +42,6 @@ mongo.connect(); // from mongo.js
 //   console.log(`The server is up on port ${process.env.PORT | 5000}!`);
 // });
 
-server.listen({ port: process.env.PORT | 5000 }, () => {
+server.listen({ port: process.env.PORT || 5000 }, () => {
   console.log('Server listening');
 });
